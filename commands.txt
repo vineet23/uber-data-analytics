@@ -1,0 +1,34 @@
+# Install Python and pip 
+sudo apt-get update -y
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo python3 get-pip.py
+
+# To clear the screen
+clear
+
+# Install Mage
+sudo pip3 install mage-ai
+sudo pip3 install -Iv mage-ai==0.8.64
+
+# Install Pandas
+sudo pip3 install pandas
+
+# Install Google Cloud Library
+sudo pip3 install google-cloud
+sudo pip3 install -Iv google-cloud==0.34.0
+
+sudo pip3 install google-cloud-bigquery
+sudo pip3 install -Iv google-cloud-bigquery==3.10.0
+
+
+# To start mage project
+mage start uber-analytics-project
+

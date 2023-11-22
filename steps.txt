@@ -1,0 +1,7 @@
+1. Upload the data to cloud storage bucket and made it public
+2. Created a compute instance and added firewall rule to expose 6789 port over http for maze access
+3. Created a big query instance and added a database in it
+4. Created a service account and added Big Query admin permission in it to get the secrets required for maze to connect with Google Big Query.
+5. Run the maze in compute instance and ingested the data from cloud storage and loaded it in big query after transforming it
+6. Created a analysis table with required fields n BigQuery
+7. Used Big Query analysis table created in Looker studio to generate the dashboard
